@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Najd Studio - Professional Design & Video Editing Services. Fast, Creative, Affordable.">
+    <meta name="keywords" content="video editing, thumbnail design, branding, graphic design, content creation, Saudi Arabia">
+    <meta property="og:title" content="Najd Studio - Professional Design & Video Editing">
+    <meta property="og:description" content="Transform your content with professional video editing and design services.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630?text=Najd+Studio">
+    <title>Najd Studio - Professional Design & Video Editing Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <span class="logo-text">Najd Studio</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="lang-toggle" id="langToggle">العربية</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="scroll-progress"></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="gradient-text" data-en="Elevate Your" data-ar="ارفع مستوى">Elevate Your</span>
+                <span class="gradient-text" data-en="Creative Vision" data-ar="رؤيتك الإبداعية">Creative Vision</span>
+            </h1>
+            <p class="hero-subtitle" data-en="Professional Design & Video Editing Services That Transform Your Ideas Into Reality" data-ar="خدمات التصميم وتحرير الفيديو الاحترافية التي تحول أفكارك إلى واقع">Professional Design & Video Editing Services That Transform Your Ideas Into Reality</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">150+</span>
+                    <span class="stat-label" data-en="Projects" data-ar="مشاريع">Projects</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label" data-en="Clients" data-ar="عملاء">Clients</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label" data-en="Support" data-ar="دعم">Support</span>
+                </div>
+            </div>
+            <div class="hero-ctas">
+                <button class="btn btn-primary" data-en="Start Your Project" data-ar="ابدأ مشروعك">Start Your Project</button>
+                <button class="btn btn-secondary" id="videoBtn" data-en="Watch Demo" data-ar="شاهد العرض التوضيحي">Watch Demo</button>
+            </div>
+        </div>
+        <div class="hero-video-placeholder"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 data-en="Our Services" data-ar="خدماتنا">Our Services</h2>
+        <p class="section-subtitle" data-en="Comprehensive creative solutions for your brand" data-ar="حلول إبداعية شاملة لعلامتك التجارية">Comprehensive creative solutions for your brand</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🎬</div>
+                <h3 data-en="Video Editing" data-ar="تحرير الفيديو">Video Editing</h3>
+                <p data-en="Professional video editing with color grading, effects, and transitions" data-ar="تحرير فيديو احترافي مع تصحيح الألوان والمؤثرات والانتقالات">Professional video editing with color grading, effects, and transitions</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🖼️</div>
+                <h3 data-en="Thumbnail Design" data-ar="تصميم الصور المصغرة">Thumbnail Design</h3>
+                <p data-en="Eye-catching thumbnails that boost your click-through rate" data-ar="صور مصغرة جذابة تزيد من معدل النقر إلى الظهور">Eye-catching thumbnails that boost your click-through rate</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3 data-en="Branding & Logo" data-ar="العلامة التجارية والشعار">Branding & Logo</h3>
+                <p data-en="Custom logo design and brand identity that stands out" data-ar="تصميم شعار مخصص وهوية علامة تجارية متميزة">Custom logo design and brand identity that stands out</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📱</div>
+                <h3 data-en="Social Media Content" data-ar="محتوى وسائل التواصل">Social Media Content</h3>
+                <p data-en="Engaging graphics and videos optimized for Instagram, TikTok, and YouTube" data-ar="رسومات وفيديوهات جذابة مُحسَّنة لـ Instagram و TikTok و YouTube">Engaging graphics and videos optimized for Instagram, TikTok, and YouTube</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">✂️</div>
+                <h3 data-en="Quick Edits" data-ar="التعديلات السريعة">Quick Edits</h3>
+                <p data-en="Fast turnaround edits for urgent projects - 12 hours or less" data-ar="تعديلات سريعة للمشاريع العاجلة - 12 ساعة أو أقل">Fast turnaround edits for urgent projects - 12 hours or less</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎭</div>
+                <h3 data-en="Motion Graphics" data-ar="الرسومات المتحركة">Motion Graphics</h3>
+                <p data-en="Stunning animated graphics and visual effects for your videos" data-ar="رسومات متحركة مذهلة ومؤثرات بصرية لمقاطع الفيديو الخاصة بك">Stunning animated graphics and visual effects for your videos</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <h2 data-en="Pricing Plans" data-ar="خطط الأسعار">Pricing Plans</h2>
+        <p class="section-subtitle" data-en="Choose the perfect plan for your needs" data-ar="اختر الخطة المثالية لاحتياجاتك">Choose the perfect plan for your needs</p>
+        
+        <div class="pricing-toggle">
+            <button class="toggle-btn active" id="priceToggle" data-en="Pay Per Project" data-ar="الدفع لكل مشروع">Pay Per Project</button>
+        </div>
+
+        <div class="pricing-grid">
+            <!-- Basic Plan -->
+            <div class="pricing-card">
+                <h3 data-en="Basic" data-ar="أساسي">Basic</h3>
+                <div class="price">
+                    <span class="currency" id="basic-currency">$</span><span class="amount" id="basic-price">75</span>
+                </div>
+                <p class="price-label" data-en="per project" data-ar="لكل مشروع">per project</p>
+                <p class="delivery-time" data-en="Delivery: 48 hours" data-ar="التسليم: 48 ساعة">Delivery: 48 hours</p>
+                <ul class="features-list">
+                    <li data-en="✓ Up to 5 minutes of video" data-ar="✓ حتى 5 دقائق من الفيديو">✓ Up to 5 minutes of video</li>
+                    <li data-en="✓ Basic color correction" data-ar="✓ تصحيح ألوان أساسي">✓ Basic color correction</li>
+                    <li data-en="✓ Standard transitions" data-ar="✓ انتقالات قياسية">✓ Standard transitions</li>
+                    <li data-en="✓ 1 revision" data-ar="✓ مراجعة واحدة">✓ 1 revision</li>
+                </ul>
+                <button class="btn btn-outline" data-en="Choose Plan" data-ar="اختر الخطة">Choose Plan</button>
+            </div>
+
+            <!-- Standard Plan (Recommended) -->
+            <div class="pricing-card featured">
+                <div class="recommended-badge" data-en="RECOMMENDED" data-ar="مُوصى به">RECOMMENDED</div>
+                <h3 data-en="Standard" data-ar="معيار">Standard</h3>
+                <div class="price">
+                    <span class="currency" id="standard-currency">$</span><span class="amount" id="standard-price">150</span>
+                </div>
+                <p class="price-label" data-en="per project" data-ar="لكل مشروع">per project</p>
+                <p class="delivery-time" data-en="Delivery: 24 hours" data-ar="التسليم: 24 ساعة">Delivery: 24 hours</p>
+                <ul class="features-list">
+                    <li data-en="✓ Up to 15 minutes of video" data-ar="✓ حتى 15 دقيقة من الفيديو">✓ Up to 15 minutes of video</li>
+                    <li data-en="✓ Advanced color grading" data-ar="✓ تدرج ألوان متقدم">✓ Advanced color grading</li>
+                    <li data-en="✓ Professional effects" data-ar="✓ مؤثرات احترافية">✓ Professional effects</li>
+                    <li data-en="✓ 3 revisions" data-ar="✓ 3 مراجعات">✓ 3 revisions</li>
+                    <li data-en="✓ Music/SFX library" data-ar="✓ مكتبة الموسيقى والمؤثرات الصوتية">✓ Music/SFX library</li>
+                </ul>
+                <button class="btn btn-primary" data-en="Choose Plan" data-ar="اختر الخطة">Choose Plan</button>
+            </div>
+
+            <!-- Premium Plan -->
+            <div class="pricing-card">
+                <h3 data-en="Premium" data-ar="مميز">Premium</h3>
+                <div class="price">
+                    <span class="currency" id="premium-currency">$</span><span class="amount" id="premium-price">360</span>
+                </div>
+                <p class="price-label" data-en="per project" data-ar="لكل مشروع">per project</p>
+                <p class="delivery-time" data-en="Delivery: 12 hours" data-ar="التسليم: 12 ساعة">Delivery: 12 hours</p>
+                <ul class="features-list">
+                    <li data-en="✓ Unlimited video length" data-ar="✓ طول الفيديو غير محدود">✓ Unlimited video length</li>
+                    <li data-en="✓ 4K color grading" data-ar="✓ تدرج ألوان 4K">✓ 4K color grading</li>
+                    <li data-en="✓ VFX & motion graphics" data-ar="✓ VFX والرسومات المتحركة">✓ VFX & motion graphics</li>
+                    <li data-en="✓ Unlimited revisions" data-ar="✓ مراجعات غير محدودة">✓ Unlimited revisions</li>
+                    <li data-en="✓ Premium music licensing" data-ar="✓ ترخيص الموسيقى المميزة">✓ Premium music licensing</li>
+                    <li data-en="✓ Priority support" data-ar="✓ الدعم الأولوي">✓ Priority support</li>
+                </ul>
+                <button class="btn btn-outline" data-en="Choose Plan" data-ar="اختر الخطة">Choose Plan</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2 data-en="What Our Clients Say" data-ar="ماذا يقول عملاؤنا">What Our Clients Say</h2>
+        <p class="section-subtitle" data-en="Real feedback from real projects" data-ar="تعليقات حقيقية من مشاريع حقيقية">Real feedback from real projects</p>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text" data-en="Amazing quality and fast delivery! The team understood my vision perfectly and delivered exactly what I needed." data-ar="جودة مذهلة وتسليم سريع! فهم الفريق رؤيتي بشكل مثالي وقدم بالضبط ما كنت بحاجة إليه.">Amazing quality and fast delivery! The team understood my vision perfectly and delivered exactly what I needed.</p>
+                <p class="testimonial-author" data-en="Ahmed Hassan" data-ar="أحمد حسن">Ahmed Hassan</p>
+                <p class="testimonial-role" data-en="Content Creator" data-ar="منشئ محتوى">Content Creator</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text" data-en="Professional team with great communication. They made multiple revisions without any complaints. Highly recommended!" data-ar="فريق احترافي مع تواصل رائع. أجروا عدة تعديلات دون أي اعتراضات. موصى به بشدة!">Professional team with great communication. They made multiple revisions without any complaints. Highly recommended!</p>
+                <p class="testimonial-author" data-en="Fatima Al-Dosari" data-ar="فاطمة الدوسري">Fatima Al-Dosari</p>
+                <p class="testimonial-role" data-en="Business Owner" data-ar="صاحبة عمل">Business Owner</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text" data-en="Exceeded my expectations! The video editing quality is top-notch. My channel views increased by 300% after using their services." data-ar="تجاوز توقعاتي! جودة تحرير الفيديو من الدرجة الأولى. زادت مشاهدات قناتي بنسبة 300% بعد استخدام خدماتهم.">Exceeded my expectations! The video editing quality is top-notch. My channel views increased by 300% after using their services.</p>
+                <p class="testimonial-author" data-en="Mohammed Ibrahim" data-ar="محمد إبراهيم">Mohammed Ibrahim</p>
+                <p class="testimonial-role" data-en="YouTuber" data-ar="يوتيوبر">YouTuber</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text" data-en="Best thumbnail designer I've ever worked with! They created thumbnails that got me 50% more clicks. Worth every riyal!" data-ar="أفضل مصمم صور مصغرة عملت معه! ابتكروا صورًا مصغرة حصلت على 50% نقرات إضافية. تستحق كل ريال!">Best thumbnail designer I've ever worked with! They created thumbnails that got me 50% more clicks. Worth every riyal!</p>
+                <p class="testimonial-author" data-en="Noor Al-Hamed" data-ar="نور الحمد">Noor Al-Hamed</p>
+                <p class="testimonial-role" data-en="Influencer" data-ar="مؤثر">Influencer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <h2 data-en="Frequently Asked Questions" data-ar="الأسئلة الشائعة">Frequently Asked Questions</h2>
+        <p class="section-subtitle" data-en="Find answers to common questions" data-ar="ابحث عن إجابات للأسئلة الشائعة">Find answers to common questions</p>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3 data-en="What is your turnaround time?" data-ar="ما هو وقت الإنجاز الخاص بك؟">What is your turnaround time?</h3>
+                <p data-en="We offer flexible delivery times: 48 hours (Basic), 24 hours (Standard), or 12 hours (Premium). Rush orders are possible - contact us for details." data-ar="نحن نقدم أوقات تسليم مرنة: 48 ساعة (أساسي)، 24 ساعة (معياري)، أو 12 ساعة (مميز). الطلبات العاجلة ممكنة - اتصل بنا للحصول على التفاصيل.">We offer flexible delivery times: 48 hours (Basic), 24 hours (Standard), or 12 hours (Premium). Rush orders are possible - contact us for details.</p>
+            </div>
+            <div class="faq-item">
+                <h3 data-en="Do you offer revisions?" data-ar="هل تقدم تعديلات؟">Do you offer revisions?</h3>
+                <p data-en="Yes! Basic plan includes 1 revision, Standard includes 3 revisions, and Premium includes unlimited revisions. We want you to be 100% satisfied." data-ar="نعم! الخطة الأساسية تشمل مراجعة واحدة، والخطة المعيارية تشمل 3 مراجعات، والخطة المميزة تشمل مراجعات غير محدودة. نريدك أن تكون راضًا تمامًا.">Yes! Basic plan includes 1 revision, Standard includes 3 revisions, and Premium includes unlimited revisions. We want you to be 100% satisfied.</p>
+            </div>
+            <div class="faq-item">
+                <h3 data-en="What file formats do you work with?" data-ar="ما هي صيغ الملفات التي تعمل بها؟">What file formats do you work with?</h3>
+                <p data-en="We accept MP4, AVI, MOV, MKV, and more for video. For graphics: PSD, PNG, JPG, SVG. We'll deliver in your preferred format." data-ar="نقبل MP4 و AVI و MOV و MKV وغيرها للفيديو. للرسومات: PSD و PNG و JPG و SVG. سننسل في الصيغة التي تفضلها.">We accept MP4, AVI, MOV, MKV, and more for video. For graphics: PSD, PNG, JPG, SVG. We'll deliver in your preferred format.</p>
+            </div>
+            <div class="faq-item">
+                <h3 data-en="Can you work with my brand guidelines?" data-ar="هل يمكنك العمل بموجب إرشادات علامتي التجارية؟">Can you work with my brand guidelines?</h3>
+                <p data-en="Absolutely! We love working with established brand guidelines. Just share them with us and we'll ensure all work matches your brand identity perfectly." data-ar="بالتأكيد! نحن نحب العمل مع إرشادات العلامات التجارية المعروفة. فقط شاركها معنا وسنتأكد من أن جميع الأعمال تطابق هويتك التجارية بشكل مثالي.">Absolutely! We love working with established brand guidelines. Just share them with us and we'll ensure all work matches your brand identity perfectly.</p>
+            </div>
+            <div class="faq-item">
+                <h3 data-en="How do I pay?" data-ar="كيف أدفع؟">How do I pay?</h3>
+                <p data-en="We accept bank transfer, credit card, PayPal, and Apple Pay. Payment is required upfront, but we offer a money-back guarantee if you're not satisfied." data-ar="نحن نقبل التحويل البنكي وبطاقة الائتمان و PayPal و Apple Pay. الدفع مطلوب مقدمًا، لكننا نقدم ضمان استرداد الأموال إذا لم تكن راضًا.">We accept bank transfer, credit card, PayPal, and Apple Pay. Payment is required upfront, but we offer a money-back guarantee if you're not satisfied.</p>
+            </div>
+            <div class="faq-item">
+                <h3 data-en="Do you provide source files?" data-ar="هل توفر ملفات المصدر؟">Do you provide source files?</h3>
+                <p data-en="Yes! With Premium plan, you get all source files (PSD, AEP, project files). With Standard and Basic, source files are available for an additional fee." data-ar="نعم! مع الخطة المميزة، تحصل على جميع ملفات المصدر (PSD و AEP وملفات المشروع). مع الخطط المعيارية والأساسية، ملفات المصدر متاحة برسوم إضافية.">Yes! With Premium plan, you get all source files (PSD, AEP, project files). With Standard and Basic, source files are available for an additional fee.</p>
+            </div>
+            <div class="faq-item">
+                <h3 data-en="Can you handle confidential projects?" data-ar="هل يمكنك التعامل مع المشاريع السرية؟">Can you handle confidential projects?</h3>
+                <p data-en="Definitely! We sign NDAs (Non-Disclosure Agreements) for sensitive projects. Your privacy and confidentiality are our top priorities." data-ar="بالتأكيد! نوقع اتفاقيات عدم الإفصاح (NDAs) للمشاريع الحساسة. خصوصيتك وسريتك هي أولوياتنا الأولى.">Definitely! We sign NDAs (Non-Disclosure Agreements) for sensitive projects. Your privacy and confidentiality are our top priorities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 data-en="Get In Touch" data-ar="تواصل معنا">Get In Touch</h2>
+        <p class="section-subtitle" data-en="Have a project in mind? Let's make it happen!" data-ar="هل لديك مشروع في ذهنك؟ دعنا نجعله يحدث!">Have a project in mind? Let's make it happen!</p>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-method">
+                    <div class="contact-icon">💬</div>
+                    <h3 data-en="WhatsApp" data-ar="واتس آب">WhatsApp</h3>
+                    <p data-en="Quick response - usually within 2 hours" data-ar="استجابة سريعة - عادة في غضون ساعتين">Quick response - usually within 2 hours</p>
+                    <a href="https://wa.me/966539873384" class="contact-link">+966 53 987 3384</a>
+                </div>
+                <div class="contact-method">
+                    <div class="contact-icon">📧</div>
+                    <h3 data-en="Email" data-ar="البريد الإلكتروني">Email</h3>
+                    <p data-en="Send detailed briefs and attachments" data-ar="أرسل الملخصات التفصيلية والمرفقات">Send detailed briefs and attachments</p>
+                    <a href="mailto:NajdStudio.online@gmail.com" class="contact-link">NajdStudio.online@gmail.com</a>
+                </div>
+            </div>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" data-en-placeholder="Your Name" data-ar-placeholder="اسمك" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" data-en-placeholder="Your Email" data-ar-placeholder="بريدك الإلكتروني" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <select class="form-input" data-en-placeholder="Service Type" required>
+                        <option value="" data-en="Select Service" data-ar="اختر الخدمة">Select Service</option>
+                        <option data-en="Video Editing" data-ar="تحرير الفيديو">Video Editing</option>
+                        <option data-en="Thumbnail Design" data-ar="تصميم الصور المصغرة">Thumbnail Design</option>
+                        <option data-en="Branding" data-ar="العلامة التجارية">Branding</option>
+                        <option data-en="Other" data-ar="أخرى">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Project Details" data-en-placeholder="Project Details" data-ar-placeholder="تفاصيل المشروع" class="form-textarea" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" data-en="Send Message" data-ar="أرسل الرسالة">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Najd Studio</h4>
+                <p data-en="Transform your creative ideas into stunning visuals and videos." data-ar="حول أفكارك الإبداعية إلى صور ومقاطع فيديو مذهلة.">Transform your creative ideas into stunning visuals and videos.</p>
+            </div>
+            <div class="footer-section">
+                <h4 data-en="Quick Links" data-ar="روابط سريعة">Quick Links</h4>
+                <ul>
+                    <li><a href="#services" data-en="Services" data-ar="الخدمات">Services</a></li>
+                    <li><a href="#pricing" data-en="Pricing" data-ar="الأسعار">Pricing</a></li>
+                    <li><a href="#contact" data-en="Contact" data-ar="اتصل">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 data-en="Contact" data-ar="اتصل">Contact</h4>
+                <p>📧 NajdStudio.online@gmail.com</p>
+                <p>💬 +966 53 987 3384</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-en="© 2026 Najd Studio. All rights reserved." data-ar="© 2026 نجد ستوديو. جميع الحقوق محفوظة.">© 2026 Najd Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal hidden">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <video controls width="100%">
+                <source src="https://via.placeholder.com/1920x1080?text=Najd+Studio+Demo" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
